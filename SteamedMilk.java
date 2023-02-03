@@ -1,4 +1,4 @@
-public class SteamedMilk extends Beverage {
+public class SteamedMilk extends CondimentDecorator {
 
 	public SteamedMilk(Beverage beverage) {
 		this.beverage = beverage;
